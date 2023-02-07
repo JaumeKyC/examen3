@@ -1,5 +1,5 @@
 secrets.DOCKER_USER }}/enanacicd:${{ github.sha }}
-          docker push ${{ secrets.DOCKER_USER }}/cochecicd:latest    name: ENANA
+          docker push ${{ secrets.DOCKER_USER }}/enanacicd:latest    name: ENANA
 
 on: [push]
 
